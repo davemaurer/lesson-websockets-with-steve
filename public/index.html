@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Right Now</title>
+  </head>
+  <body>
+
+    <h1>Right Now</h1>
+
+    <!--step 9 add some html so we can send messages. then back to app.js for step 10-->
+    <section class="new-message">
+      <form>
+        <input type="text" placeholder="username" class="username">
+        <input type="text" placeholder="message" class="message">
+        <input type="submit" class="submit-message">
+      </form>
+    </section>
+
+    <section class="messages">
+    </section>
+
+    <script src="/jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/application.js"></script>
+
+  </body>
+</html>
